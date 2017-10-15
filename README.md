@@ -10,4 +10,4 @@ Note that due to differences in the data structures used by the two APIs, the to
 1. Load the script:`.\Show-AzureRmConfigurationDrift.ps1`
 1. Run the `Show-AzureRmConfigurationDrift` function, passing in the names of your template file, template parameter file and resource group:
 ```powershell
-+Show-AzureRmConfigurationDrift -resourceGroupName "myresourcegroup" -templateFile .\templates\azuredeploy.json -templateParametersFile .\templates\web-azuredeploy.parameters.json
+Show-AzureRmConfigurationDrift -resourceGroupName "myresourcegroup" -templateFile .\templates\azuredeploy.json -templateParametersFile .\templates\web-azuredeploy.parameters.json
