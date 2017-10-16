@@ -203,4 +203,6 @@ function Show-AzureRmConfigurationDrift
 
 }
 
-Show-AzureRmConfigurationDrift -resourceGroupName "driftn2" -templateFile C:\users\tomholl\Downloads\web-azuredeploy.json -templateParametersFile C:\users\tomholl\Downloads\web-azuredeploy.parameters.json
+
+
+# Show-AzureRmConfigurationDrift -resourceGroupName "YourRG" -templateFile .\templates\azuredeploy.json -templateParametersFile .\templates\azuredeploy.parameters.json
